@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitInstance {
     private val retrofit = Retrofit.Builder()
-        .baseUrl("http://localhost:8080/")
+        .baseUrl("https://api.vvake.ru/")
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
