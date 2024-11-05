@@ -41,7 +41,6 @@ fun ImageScreen() {
                     painter = rememberImagePainter(data.pictureUrl),
                     contentDescription = null,
                     modifier = Modifier.fillMaxSize(),
-                    colorFilter = ColorFilter.tint(Color.Gray)
                 )
             }
             Spacer(modifier = Modifier.height(16.dp))
